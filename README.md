@@ -70,7 +70,7 @@ person = {
 person.values() # Returns dict_values(['Jane', 16, 'London'])
 ```
 
-Another way to declare a dictionary is by using the `dict` method:
+Another way to declare a dictionary is by using the `dict` constructor:
 
 ```py
 my_dict = dict()
