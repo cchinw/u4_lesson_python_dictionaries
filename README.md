@@ -209,3 +209,5 @@ print(snoops_values) # Returns a list with the dictionary values:
 ```
 
 ## You Do
+
+Work in the `main.py` file and follow the instructions provided. Test your work using `python3 dict_test.py`.
