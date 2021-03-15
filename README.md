@@ -1,10 +1,19 @@
 # Python Dictionaries
 
+![](https://www.i2tutorials.com/wp-content/media/2020/05/Append-a-Dictionary-to-a-list-in-Python-5-i2tutorials.jpg)
+
+## Overview
+In this lesson we'll be learning about Python `dictionaries`! Like objects in JavaScript, dictionaries in Python are a powerful data type that allows us to store keys and values.
+
 ## Objectives
 
 - Learn how create and format dictionaries
 - Learn how to modify and read dictionaries
 
+## Getting Started
+- `Fork` and `clone` this repository
+
+___
 ## Dictionaries
 
 Dictionaries are a collection of `unique` key-value pairs that are easily accessible. They allow us to keep a fast and easy to read record of information. We've seen dictionaries before in the form of javascript objects:
@@ -40,7 +49,7 @@ let people = {
 people.name // Returns Jane
 ```
 
-In python however, we use `[]` notation:
+In python however, we use bracket `[]` notation:
 
 ```py
 people = {
@@ -78,19 +87,19 @@ my_dict = dict()
 
 There are many more dictionary methods available in `python`,heres a list:
 
-| Dictionary Methods   |
-| -------------------- |
-| `mydict.clear`       |
-| `mydict.get `        |
-| `mydict.pop `        |
-| `mydict.update `     |
-| `mydict.copy `       |
-| `mydict.items `      |
-| `mydict.popitem `    |
-| `mydict.values `     |
-| `mydict.fromkeys `   |
-| `mydict.keys `       |
-| `mydict.setdefault ` |
+| Dictionary Methods   | Description |
+| -------------------- | ----------- |
+| `mydict.clear`       | removes all items |
+| `mydict.get `        | returns the value of a specified key |
+| `mydict.pop `        | removes and returns element with a given key from the dictionary |
+| `mydict.update `     | updates the dictionary |
+| `mydict.copy `       | returns shallow copy of a dictionary |
+| `mydict.items `      | returns a list of the dictionary's key value pairs as tuples |
+| `mydict.popitem `    | removes and returns the last element (key, value) pair inserted into the dictionary |
+| `mydict.values `     | returns a list of all values in dictionary |
+| `mydict.fromkeys `   | creates dictionary from given sequence of keys |
+| `mydict.keys `       | returns a list of all keys in a dictionary |
+| `mydict.setdefault ` | returns the value of a key if the key is in dictionary. If not, it inserts key with a value to the dictionary. |
 
 ### Modifying Dictionaries
 
@@ -149,7 +158,10 @@ dict_1.update(dict_2)
 print(dict_1) # Returns {'town': 'Riverdale', 'state': 'Canada'}
 ```
 
-### Iterating Through Dictionaries
+___
+## Iterating Through Dictionaries
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FatcqQ5PuX41J6%2Fgiphy.gif&f=1&nofb=1)
 
 It's time to use our friend the `for` loop again!
 
@@ -211,3 +223,20 @@ print(snoops_values) # Returns a list with the dictionary values:
 ## You Do
 
 Work in the `main.py` file and follow the instructions provided. Test your work using `python3 dict_test.py`.
+
+## Recap
+In this lesson, we learned about the syntax, manipulation, and iteration of dictionaries in Python. A few key things to note:
+- Dictionaries in python work similarly to objects in JavaScript, but their syntax requires keys to be wrapped in quotes. Example:
+    
+    ```python
+    my_dict = {
+      "hello": "world"
+    }
+    ```
+- Dictionaries have access to powerful methods like `update` that can be used to manipulate their values, add in new key value pairs, or even merge dictionaries together!
+- Dictionaries are `iterable`, meaning that we can loop through their keys and values with for loops and list comprehension
+
+## Resources
+- [Python Dictionaries](https://www.tutorialspoint.com/python/python_dictionary.htm)
+- [Python Dictionary Method Examples](https://pythonexamples.org/python-dictionary-methods/)
+
