@@ -15,8 +15,9 @@ class Dict_Test(unittest.TestCase):
                          self. test_dict.keys())
 
     def test_values(self):
+        values = [x for x in self.test_dict.values()]
         self.assertEqual(main.list_values(self.test_dict),
-                         self.test_dict.values())
+                         values)
 
     def test_update(self):
         new_dict = self.test_dict

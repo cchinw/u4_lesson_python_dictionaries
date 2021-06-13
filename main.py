@@ -4,7 +4,7 @@ def list_keys(dictionary):
 
 
 def list_values(dictionary):
-    # Should return all values in dictionary
+    # Should return all values in dictionary in a list
     return
 
 
