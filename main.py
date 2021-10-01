@@ -19,5 +19,5 @@ def access_dict(dictionary):
 
 
 def build_dict():
-    # Build Your Own Dictionary using the contructor or curly bracket syntax
+    # Build Your Own Dictionary using the constructor or curly bracket syntax
     return
